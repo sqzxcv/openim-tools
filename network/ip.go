@@ -15,9 +15,9 @@
 package network
 
 import (
-	"github.com/OpenIMSDK/tools/utils"
+	"github.com/openimsdk/tools/utils"
 
-	"github.com/OpenIMSDK/protocol/constant"
+	"github.com/openimsdk/protocol/constant"
 )
 
 func GetRpcRegisterIP(configIP string) (string, error) {

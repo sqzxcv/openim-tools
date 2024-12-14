@@ -17,20 +17,20 @@ package mw
 import (
 	"context"
 	"fmt"
-	"github.com/OpenIMSDK/tools/checker"
+	"github.com/openimsdk/tools/checker"
 	"math"
 
-	"github.com/OpenIMSDK/protocol/constant"
+	"github.com/openimsdk/protocol/constant"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/metadata"
 	"google.golang.org/grpc/status"
 
-	"github.com/OpenIMSDK/protocol/errinfo"
-	"github.com/OpenIMSDK/tools/errs"
-	"github.com/OpenIMSDK/tools/log"
-	"github.com/OpenIMSDK/tools/mw/specialerror"
+	"github.com/openimsdk/protocol/errinfo"
+	"github.com/openimsdk/tools/errs"
+	"github.com/openimsdk/tools/log"
+	"github.com/openimsdk/tools/mw/specialerror"
 )
 
 func rpcString(v interface{}) string {

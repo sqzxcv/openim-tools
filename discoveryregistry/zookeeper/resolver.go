@@ -18,7 +18,7 @@ import (
 	"context"
 	"strings"
 
-	"github.com/OpenIMSDK/tools/log"
+	"github.com/openimsdk/tools/log"
 
 	"google.golang.org/grpc/resolver"
 )
